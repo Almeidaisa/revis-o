@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Isabella Almeida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fce4ec; /* Rosa claro */
+        }
+
+        header {
+            background-color: #e91e63; /* Cor do cabeçalho */
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .header-buttons a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #d81b5f; /* Cor dos botões */
+            padding: 8px 15px;
+            margin: 0 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .header-buttons a:hover {
+            background-color: #c2185b; /* Cor dos botões ao passar o mouse */
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #e91e63; /* Cor do botão de envio */
+            color: #fff;
+            cursor: pointer;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #d81b5f; /* Cor do botão de envio ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1 style="font-size: 1.5em;">Isabella Almeida</h1>
+        </div>
+        <div class="header-buttons">
+            <a href="home">sair</a>
+           
+        </div>
+    </header>
+
+    <section>
+        <form action="/cadastro" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="username" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="password" required>
+
+            <input type="submit" value="Cadastrar">
+        </form>
+    </section>
+</body>
+</html>

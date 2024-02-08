@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <link rel="stylesheet" href="style.css">
+<!-- Script for Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <div class="container" id="home">
+        <header>
+            <nav>
+                <div class="left-nav">
+                    <a href="login">Login</a>
+                    <a href="cadastro">cadastro</a>
+                    <a href="homeblog">Sobre</a>
+                    <a href="postagens">Postagem</a>
+                    
+                  
+                    
+                </div>
+                <div class="mid-nav">
+                    <a href="https://youtube.com" target="_blank">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                    <a href="https://instagram.com" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                    <a href="https://github.com" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+                <div class="right-nav">
+                    <a href="#footer">
+                        
+
+                    </a>
+                </div>
+            </nav>
+            <style>
+                  
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: linear-gradient(rgba(217, 12, 190, 0.3),rgba(7, 58, 134, 0.6)),url(bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem 0 3rem;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding-inline: 1rem;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.left-nav {
+    display: flex;
+}
+
+.mid-nav a {
+    font-size: 1.25rem;
+}
+
+.right-nav img {
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mid-info {
+    color: white;
+    padding: 10rem 5rem 0 5rem;
+}
+
+.name {
+    font-size: 7rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.name span {
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.work {
+    letter-spacing: 7px;
+    font-size: 25px;
+}
+
+.sec-des {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #f9fafb;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding: 9rem 7.5rem;
+    justify-content: space-between;
+}
+
+.sec-des-left {
+    width: 50ch;
+}
+
+.sec-des p {
+    line-height: 2;
+}
+
+h3 {
+    font-size: 3rem;
+    color: #e412ba;
+}
+
+.sec-des img {
+    width: 30vw;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.exp {
+    padding: 10.1rem 7.5rem;
+    background: #0c0909;
+    color: #fff;
+}
+
+.exp h3 {
+    background: #0c0909;
+    color: #fff;
+}
+
+.exp img {
+    border-radius: 10px;
+    width: 30vw;
+}
+
+.exp-left {
+    order: 2;
+}
+
+.contact {
+    padding: 9rem 7.5rem;
+    color: rgb(7, 7, 7);
+}
+
+.contact > p {
+    color: black;
+}
+
+h2 {
+    font-size: 10rem;
+}
+
+.free {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.contact-text1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.email {
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+hr {
+    width: 95vw;
+    margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+    color: rgb(194, 34, 117);
+}
+
+footer a {
+    text-decoration: none;
+    padding-inline: 1.25rem;
+    color: rgb(198, 26, 138);
+}
+
+footer p {
+    font-weight: 500;
+    cursor: pointer;
+}
+            </style>
+        </header>
+        <section>
+            <div class="mid-info">
+                <div class="name">Isabella <br>
+                    <span>Almeida</span>
+                </div>
+                <div class="work">belinha</div>
+            </div>
+        </section>
+    </div>
+    <section class="sec-des" id="about">
+        <div class="sec-des-left">
+            <h3>Sobre Mim</h3>
+            <p>
+                Isabella, uma jovem de 17 anos, é uma apaixonada por cachorros desde a infância. Sua conexão com esses animais vai além de uma simples admiração; para ela, os cães são mais do que companheiros leais, são membros da família. Aos olhos de Isabella, cada latido, abanar de rabo e olhar expressivo conta uma história única e especial.
+
+Desde cedo, Isabella demonstrou uma sensibilidade especial para entender as necessidades e emoções dos cachorros. Sua casa é um verdadeiro paraíso canino, com brinquedos espalhados pelos cantos, tigelas de água fresca e camas aconchegantes. Ela sempre foi a defensora número um dos direitos dos animais e frequentemente se envolve em atividades voluntárias em abrigos de animais locais.
+
+Além de seu amor pelos cachorros, Isabella também é conhecida por sua generosidade e disposição em ajudar os outros. Ela costuma organizar eventos beneficentes para arrecadar fundos em prol de organizações que cuidam de animais abandonados. Sua paixão por cães a levou a buscar informações sobre diferentes raças, comportamentos e técnicas de treinamento, transformando-a em uma verdadeira especialista canina entre seus amigos. </p>
+        </div>
+      ">
+    </section>
+    <section class="sec-des" id="about">
+        <div class="sec-des-left">
+            <h3>A dona</h3>
+            <img src="eu.JPG" width="200px" src="A Photo of Nightshade">
+   
+    
+    <hr>
+</div>
+
+
+</section>
+    <footer id="footer">
+        <div class="left-nav">
+            <a href="#home" target="_blank">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#experience">Experiencia</a>
+            <a href="#contact">Contato</a>
+        </div>
+        <div class="right-nav">
+            <a href="#home">amo dogs</a>
+        </div>
+    </footer>
+</body>
+</html>
